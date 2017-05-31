@@ -1,0 +1,31 @@
+{
+  "name": "ssx/cmp-app",
+  "description": "A sample app for a sample talk.",
+  "type": "project",
+  "license": "Apache2.0",
+  "authors": [
+    {
+      "name": "Scott Wilcox",
+      "email": "scott@dor.ky"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "ssx/cmp-barclays": "1.0.2",
+    "ssx/cmp-natwest": "1.0.1"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url":  "git@github.com:ssx/cmp-interfaces.git"
+    },
+    {
+      "type": "git",
+      "url":  "git@github.com:ssx/cmp-natwest.git"
+    },
+    {
+      "type": "git",
+      "url":  "git@github.com:ssx/cmp-barclays.git"
+    }
+  ]
+}
